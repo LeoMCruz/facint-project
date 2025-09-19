@@ -149,8 +149,8 @@ Paranavaí, importante município do noroeste do Paraná, enfrenta desafios comu
 
 1. **Clone o repositório**
    ```bash
-   git clone https://github.com/seu-usuario/guia-servicos-panavai.git
-   cd guia-servicos-panavai
+   git clone https://github.com/LeoMCruz/facint-project
+   cd facint-project
    ```
 
 2. **Instale as dependências**
