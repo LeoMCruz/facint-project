@@ -240,11 +240,6 @@ export default function Index() {
             <p className="text-gray-500">Tente ajustar sua pesquisa ou explorar outras categorias.</p>
           </div>
         )}
-        
-        {/* Footer */}
-        <div className="mt-16 pt-8 border-t border-gray-200 text-center text-gray-500">
-          <p>💙 Feito com amor para a comunidade de Paranavaí</p>
-        </div>
       </div>
     </div>
   );
