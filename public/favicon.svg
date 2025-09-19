@@ -1,0 +1,30 @@
+<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background com gradiente azul -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2563eb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4f46e5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="pin-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="16" height="16" rx="3" fill="url(#bg-gradient)"/>
+  
+  <!-- Pin de localização principal -->
+  <path d="M8 2C6.067 2 4.5 3.567 4.5 5.5C4.5 8.5 8 13 8 13S11.5 8.5 11.5 5.5C11.5 3.567 9.933 2 8 2Z" fill="url(#pin-gradient)" stroke="white" stroke-width="0.3"/>
+  
+  <!-- Círculo interno do pin -->
+  <circle cx="8" cy="5.5" r="1.2" fill="white"/>
+  
+  <!-- Pontos menores representando outros serviços -->
+  <circle cx="4" cy="9" r="0.8" fill="white" opacity="0.8"/>
+  <circle cx="12" cy="10" r="0.6" fill="white" opacity="0.6"/>
+  <circle cx="6" cy="12" r="0.7" fill="white" opacity="0.7"/>
+  
+  <!-- Linhas conectando os pontos (rede de serviços) -->
+  <path d="M8 6.7L4 9M8 6.7L12 10M4 9L6 12" stroke="white" stroke-width="0.4" opacity="0.4"/>
+</svg>
